@@ -1,4 +1,7 @@
-body, html, #root, .App {
+body,
+html,
+#root,
+.App {
   height: 100%;
   background-image: url(./bg.webp);
   background-size: cover;
@@ -45,7 +48,10 @@ a {
   padding: 50px;
 }
 
-.auth, .list, .detail, .create {
+.auth,
+.list,
+.detail,
+.create {
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -53,8 +59,7 @@ a {
   align-items: center;
 }
 
-
-form { 
+form {
   text-align: right;
   margin: 100px;
 }
@@ -67,7 +72,9 @@ form button {
   margin: 5px;
 }
 
-form label input, form label textarea, form label select  {
+form label input,
+form label textarea,
+form label select {
   margin: 5px;
 }
 
@@ -83,7 +90,6 @@ select {
 }
 
 .game {
-
 }
 
 .detail {
